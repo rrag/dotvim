@@ -49,7 +49,11 @@ set foldmethod=indent " fold based on indent level
 "set foldnestmax=10 " max 10 depth
 set foldenable " don't fold files by default on open
 nnoremap <space> za
-set foldlevelstart=10 " start with fold level of 1
+set foldlevelstart=20 " start with fold level of 1
+
+" Note, perl automatically sets foldmethod in the syntax file
+autocmd Syntax c,cpp,vim,xml,html,xhtml,javascript,json setlocal foldmethod=syntax
+autocmd Syntax c,cpp,vim,xml,html,xhtml,javascript,json,perl normal zR
 " }}}
 
 " UI Layout {{{
