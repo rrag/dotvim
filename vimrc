@@ -1,12 +1,17 @@
 if has('win32') || has('win64')
-  set runtimepath=$HOMEDRIVE/$HOMEPATH/.vim,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after,$HOME/.vim/after
+  set runtimepath=$HOMEDRIVE/$HOMEPATH/vimfiles,$VIM/vimfiles,$VIMRUNTIME,$VIM/vimfiles/after
+  set shell=$COMSPEC
 endif
+
+scriptencoding utf-8
+set encoding=utf-8
+
 call pathogen#infect()
 call pathogen#helptags()
 
 " Colors {{{
-syntax enable           " enable syntax processing
-colorscheme badwolf     " awesome colorscheme
+syntax on           " enable syntax processing
+colorscheme atom     " awesome colorscheme
 " }}}
 
 " Spaces & Tabs {{{

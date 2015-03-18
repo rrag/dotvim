@@ -1,7 +1,12 @@
 Installation:
 
+Linux
     git clone git://github.com/rrag/dotvim.git ~/.vim
 
+Windows
+	git clone git://github.com/rrag/dotvim.git ~/vimfiles
+	
+	
 Create symlinks:
 
     ln -s ~/.vim/vimrc ~/.vimrc
