@@ -27,7 +27,7 @@ set listchars=eol:¬,tab:\|\ ,trail:~,extends:>,precedes:<,nbsp:_ " Show end of 
 set list
 " }}}
 
-
+set pastetoggle=<F2>    " Press F2 when you want to paste some text copied from outside of vim and once done press F2 to toggle out
 " using vim-airline so not needed set ruler               " Show the line and column number of the cursor position,
                         " separated by a comma.
 

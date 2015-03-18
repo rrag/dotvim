@@ -18,6 +18,12 @@ Switch to the `~/.vim` directory, and fetch submodules:
     git submodule init
     git submodule update
 
+To add a submodule:
+
+    git submodule add https://github.com/username/modulename.git bundle/modulename
+
+
+
 To remove a submodule you need to:
 
 - Delete the relevant section from the `.gitmodules` file.
