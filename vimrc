@@ -11,7 +11,7 @@ call pathogen#helptags()
 
 " Colors {{{
 syntax on           " enable syntax processing
-colorscheme atom     " awesome colorscheme
+colorscheme badwolf    " awesome colorscheme
 " }}}
 
 " Spaces & Tabs {{{
